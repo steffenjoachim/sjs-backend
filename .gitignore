@@ -1,0 +1,12 @@
+# Node.js
+node_modules
+.env
+npm-debug.log
+.DS_Store
+
+# Optional: VS Code Settings
+.vscode
+
+# Log files
+logs
+*.log
