@@ -57,6 +57,6 @@ app.post('/api/contact', async (req, res) => {
 });
 
 
-app.listen(port, () => {
-  console.log(`✅ Server läuft auf http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`✅ Server läuft auf http://0.0.0.0:${port}`);
 });
